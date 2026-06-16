@@ -1,0 +1,306 @@
+{
+  "models": {
+    "providers": {
+      "vultr": {
+        "baseUrl": "https://api.vultrinference.com/v1",
+        "apiKey": "SET_FROM_ENV",
+        "auth": "token",
+        "api": "openai-completions",
+        "models": [
+          {
+            "id": "zai-org/GLM-5.1-FP8",
+            "name": "GLM-5.1-FP8",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 202752,
+            "maxTokens": 8192
+          },
+          {
+            "id": "nvidia/DeepSeek-V3.2-NVFP4",
+            "name": "DeepSeek-V3.2-NVFP4",
+            "api": "openai-completions",
+            "reasoning": true,
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "MiniMaxAI/MiniMax-M2.5",
+            "name": "MiniMax-M2.5",
+            "api": "openai-completions",
+            "input": [
+              "text"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          },
+          {
+            "id": "moonshotai/Kimi-K2.5",
+            "name": "Kimi-K2.5",
+            "api": "openai-completions",
+            "input": [
+              "text",
+              "image"
+            ],
+            "cost": {
+              "input": 0,
+              "output": 0,
+              "cacheRead": 0,
+              "cacheWrite": 0
+            },
+            "contextWindow": 128000,
+            "maxTokens": 8192
+          }
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "compaction": {
+        "mode": "default",
+        "identifierPolicy": "strict"
+      },
+      "timeoutSeconds": 86400,
+      "workspace": "/home/openclaw",
+      "contextInjection": "always",
+      "bootstrapMaxChars": 50000,
+      "bootstrapTotalMaxChars": 300000
+    }
+  },
+  "commands": {
+    "native": true,
+    "nativeSkills": true,
+    "restart": true,
+    "ownerDisplay": "raw",
+    "bash": true,
+    "config": true,
+    "mcp": true,
+    "plugins": true,
+    "debug": true,
+    "ownerAllowFrom": [
+      "telegram:7453631330"
+    ]
+  },
+  "gateway": {
+    "port": 18789,
+    "mode": "local",
+    "bind": "loopback",
+    "controlUi": {
+      "allowedOrigins": [
+        "http://127.0.0.1:18789",
+        "http://127.0.0.1",
+        "https://e70b1eab-9f4a-41a1-bc0b-b3ed5a200065.vultropenclaw.com"
+      ],
+      "dangerouslyDisableDeviceAuth": true,
+      "enabled": true
+    },
+    "auth": {
+      "mode": "token",
+      "token": "s8RF5KKMHx3osLCHLeDcmzECCAsNeh1R",
+      "allowTailscale": true
+    },
+    "trustedProxies": [
+      "127.0.0.1"
+    ]
+  },
+  "meta": {
+    "lastTouchedVersion": "2026.6.8",
+    "lastTouchedAt": "2026-06-16T21:32:04.879Z"
+  },
+  "channels": {
+    "whatsapp": {
+      "chunkMode": "newline",
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "debounceMs": 0,
+      "mediaMaxMb": 50,
+      "enabled": true
+    },
+    "telegram": {
+      "enabled": true,
+      "botToken": "8744326288:AAGiWBWa4PlChHOG4uz5hRotgDs8dt14lhM",
+      "dmPolicy": "pairing",
+      "groupPolicy": "allowlist",
+      "allowFrom": [
+        7453631330
+      ],
+      "defaultTo": 7453631330,
+      "groupAllowFrom": [
+        "7453631330"
+      ]
+    }
+  },
+  "approvals": {
+    "exec": {
+      "enabled": true
+    },
+    "plugin": {
+      "enabled": true
+    }
+  },
+  "messages": {
+    "tts": {
+      "auto": "always"
+    }
+  },
+  "talk": {
+    "consultFastMode": true,
+    "realtime": {
+      "brain": "direct-tools"
+    }
+  },
+  "tools": {
+    "profile": "full"
+  },
+  "skills": {
+    "entries": {
+      "1password": {
+        "enabled": false
+      },
+      "apple-notes": {
+        "enabled": false
+      },
+      "apple-reminders": {
+        "enabled": false
+      },
+      "bear-notes": {
+        "enabled": false
+      },
+      "blogwatcher": {
+        "enabled": false
+      },
+      "blucli": {
+        "enabled": false
+      },
+      "camsnap": {
+        "enabled": false
+      },
+      "coding-agent": {
+        "enabled": false
+      },
+      "discord": {
+        "enabled": false
+      },
+      "eightctl": {
+        "enabled": false
+      },
+      "gemini": {
+        "enabled": false
+      },
+      "gifgrep": {
+        "enabled": false
+      },
+      "gog": {
+        "enabled": false
+      },
+      "goplaces": {
+        "enabled": false
+      },
+      "himalaya": {
+        "enabled": false
+      },
+      "imsg": {
+        "enabled": false
+      },
+      "mcporter": {
+        "enabled": false
+      },
+      "model-usage": {
+        "enabled": false
+      },
+      "nano-pdf": {
+        "enabled": false
+      },
+      "obsidian": {
+        "enabled": false
+      },
+      "openai-whisper": {
+        "enabled": false
+      },
+      "openai-whisper-api": {
+        "enabled": false
+      },
+      "openhue": {
+        "enabled": false
+      },
+      "oracle": {
+        "enabled": false
+      },
+      "ordercli": {
+        "enabled": false
+      },
+      "peekaboo": {
+        "enabled": false
+      },
+      "sag": {
+        "enabled": false
+      },
+      "session-logs": {
+        "enabled": false
+      },
+      "sherpa-onnx-tts": {
+        "enabled": false
+      },
+      "slack": {
+        "enabled": false
+      },
+      "songsee": {
+        "enabled": false
+      },
+      "sonoscli": {
+        "enabled": false
+      },
+      "spotify-player": {
+        "enabled": false
+      },
+      "summarize": {
+        "enabled": false
+      },
+      "things-mac": {
+        "enabled": false
+      },
+      "trello": {
+        "enabled": false
+      },
+      "voice-call": {
+        "enabled": false
+      },
+      "wacli": {
+        "enabled": false
+      },
+      "xurl": {
+        "enabled": false
+      }
+    }
+  },
+  "wizard": {
+    "lastRunAt": "2026-06-16T21:32:04.577Z",
+    "lastRunVersion": "2026.6.8",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  }
+}
