@@ -1,11 +1,14 @@
 {
-  "name": "EVEZ-OS + OpenClaw + NEUROS",
-  "forwardPorts": [18789, 9100, 9600, 8080, 9300, 9500],
-  "postCreateCommand": "bash /workspaces/evez-os/.devcontainer/setup.sh",
-  "postStartCommand": "bash /workspaces/start-evez.sh &",
+  "name": "EVEZ Service Node",
+  "image": "mcr.microsoft.com/devcontainers/python:3.11",
   "features": {
-    "ghcr.io/devcontainers/features/node:1": { "version": "22" },
-    "ghcr.io/devcontainers/features/python:1": { "version": "3.12" },
     "ghcr.io/devcontainers/features/github-cli:1": {}
+  },
+  "postCreateCommand": "pip install aiohttp aiosqlite && bash setup.sh || true",
+  "forwardPorts": [9100, 9800, 9600],
+  "portsAttributes": {
+    "9100": { "label": "EVEZ Provider", "onAutoForward": "openPreview" },
+    "9800": { "label": "Arena", "onAutoForward": "openPreview" },
+    "9600": { "label": "NEUROS", "onAutoForward": "openPreview" }
   }
 }
