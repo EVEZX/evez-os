@@ -11,3 +11,49 @@ anomaly: Players report 'hit markers' that vanish after rollback; blame shifts b
 If your resolver lies, your world-map lies. Two vantages or you're worshipping one cache.
 [2026-02-17T18:57:51.092610+00:00] XRAY_ROOM::game_backend — Internet X-Ray: Rollback is Paid-For Illusion provenance=1
 Client-side prediction is a performance lie you ship on purpose. Label pending state like you mean it, or the player will call your truth a bug.
+[2026-02-17T18:57:51.092519+00:00] XRAY_ROOM::public_internet — Internet X-Ray: Naming is Reality provenance=1
+If your resolver lies, your world-map lies. Two vantages or you're worshipping one cache.
+[2026-02-17T18:57:51.092610+00:00] XRAY_ROOM::game_backend — Internet X-Ray: Rollback is Paid-For Illusion provenance=1
+Client-side prediction is a performance lie you ship on purpose. Label pending state like you mean it, or the player will call your truth a bug.
+[2026-02-18T12:24:38Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.episode_start", "episode_id": "EP-20260218-122438-1", "timestamp": "2026-02-18T12:24:38Z", "seed": 1, "steps": 3, "truth_plane": "truth", "triggered_by": null, "notes": "Episode start (projection can change; spine cannot)."}
+[2026-02-18T12:24:38Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260218-122438-1", "step": 1, "trace_id": "T0e660829d415da8b", "timestamp": "2026-02-18T12:24:38Z", "lobby": "TLS", "motif": "identity court", "claim": "In TLS, a failure may present as: identity cou
+[2026-02-18T12:24:38Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260218-122438-1", "step": 2, "trace_id": "Tedc3c918867ed639", "timestamp": "2026-02-18T12:24:38Z", "lobby": "FSC", "motif": "confidence outruns falsifier", "claim": "In FSC, a failure may present as
+[2026-02-18T12:24:38Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260218-122438-1", "step": 3, "trace_id": "Tea515270e08b64b3", "timestamp": "2026-02-18T12:24:38Z", "lobby": "BGP", "motif": "route ghost", "claim": "In BGP, a failure may present as: route ghost.",
+[2026-02-18T12:24:38Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.episode_end", "episode_id": "EP-20260218-122438-1", "timestamp": "2026-02-18T12:24:38Z", "truth_plane": "truth", "notes": "Episode end."}
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.episode_start", "episode_id": "EP-20260627-040456-42", "timestamp": "2026-06-27T04:04:56+00:00Z", "seed": 42, "steps": 14, "truth_plane": "truth", "triggered_by": null, "notes": "Episode start (projection can change; spine ca
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 1, "trace_id": "T083c3a94499142a6", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "BGP", "motif": "route ghost", "claim": "In BGP, a failure may present as: route gh
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 2, "trace_id": "T66746fd40d3885a6", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "DNS", "motif": "naming fork", "claim": "In DNS, a failure may present as: naming f
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 3, "trace_id": "Te530fd87f65abe82", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "AUTH", "motif": "clock skew gate", "claim": "In AUTH, a failure may present as: cl
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 4, "trace_id": "T6db2d021c92cc203", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "CDN", "motif": "echo hall", "claim": "In CDN, a failure may present as: echo hall.
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 5, "trace_id": "Td3a6683af418e411", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "CDN", "motif": "echo hall", "claim": "In CDN, a failure may present as: echo hall.
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 6, "trace_id": "T95ef5d58efabb13f", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "TLS", "motif": "identity court", "claim": "In TLS, a failure may present as: ident
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 7, "trace_id": "T23a929502dd3aea3", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "BGP", "motif": "route ghost", "claim": "In BGP, a failure may present as: route gh
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 8, "trace_id": "Tb9c78ad647aaa59b", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "FUNDING", "motif": "USD checkpoint", "claim": "In FUNDING, a failure may present a
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 9, "trace_id": "T90a58c623cdb14ce", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "BGP", "motif": "route ghost", "claim": "In BGP, a failure may present as: route gh
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 10, "trace_id": "Tbd5641ac166167e7", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "FSC", "motif": "confidence outruns falsifier", "claim": "In FSC, a failure may pr
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 11, "trace_id": "Te98b2fde27f5abbf", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "MIXED", "motif": "symptom impersonation", "claim": "In MIXED, a failure may prese
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 12, "trace_id": "Tcf3a0cab9af5dde4", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "DNS", "motif": "naming fork", "claim": "In DNS, a failure may present as: naming
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 13, "trace_id": "T06b7b95fdc9ef856", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "DNS", "motif": "naming fork", "claim": "In DNS, a failure may present as: naming
+[2026-06-27T04:04:56+00:00Z] PUBLIC_INTERNET — the world argues about truth at line-rate. you do not get one reality, you get convergence. the internet does not care about your story
+{"kind": "play.step", "episode_id": "EP-20260627-040456-42", "step": 14, "trace_id": "Tdaefdd41194ebe61", "timestamp": "2026-06-27T04:04:56+00:00Z", "lobby": "BGP", "motif": "route ghost", "claim": "In BGP, a failure may present as: route g
+[2026-06-27T04:04:56+00:00Z] MIXED_REALITY — multiple layers impersonate each other. your job is to stop trusting vibes and start trusting probes. no fucking vibes, no mystical shortcuts
+{"kind": "play.episode_end", "episode_id": "EP-20260627-040456-42", "timestamp": "2026-06-27T04:04:56+00:00Z", "truth_plane": "truth", "notes": "Episode end."}
